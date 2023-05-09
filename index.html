@@ -1,0 +1,456 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <style>
+    /* body{
+        background-color: rgb(228, 242, 255);
+    } */
+    h1{
+        text-align: center;
+        color:#993500;
+        font-size: 60px;
+        font-family: 'Avenir Light';
+    }
+     img {
+			display: block;
+			margin: 0 auto;
+		}
+     p {
+    padding: 10px 100px;
+    color: rgb(77, 85, 68);
+    font-size: 23px;
+    font-family: "Avenir Light";
+    text-indent: 2em;
+    text-align: center;
+
+
+
+    /* margin-top: px; */
+}
+.button-on{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color:  #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: -223px;
+    
+}
+.button-close{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top:-200px;
+}
+#box{
+    width: 1400px;
+    height: 2087px;
+    /* background-color: #FAF7E3; */
+    margin: 0 auto;
+    display: none;
+}
+.text{
+    margin:0 auto;
+}
+
+
+/* a{
+    text-decoration: none;
+    display: block;
+    color: rgb(30,144,210);
+    width: 580.5px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+} */
+
+
+
+
+.bball,.bbtest{
+	background-color:#EFD391;	
+}
+.all,.test,.res{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.all h1{
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.all img,.test img{
+	display: block;
+	margin: 0 auto;
+}
+.all p{
+	padding: 10px 100px;
+	color: #000;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
+.all a{
+	text-decoration: none;
+    font-family: 'Avenir Light';
+
+}
+.all button,.res button{
+	color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+}
+.all button{
+	background-color: #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.res button{
+	float: right;
+	margin-top: 90px;
+    background-color: #99B0AF;
+}
+
+
+.test h2{
+    text-align: center;
+	color:rgb(77, 85, 68);
+	margin-bottom: 40px;
+    font-size:45px;
+    /* font-family:"Avenir Light"; */
+}
+.test p{
+	color: rgb(73, 74, 75);
+	font-size: 25px;
+	font-family: "微软雅黑";
+	/* padding-left: 200px; */
+    text-align: center;
+}
+.test .test-cho{
+	margin-top: 50px;
+	margin-left: 210px;
+    text-align: center;
+}
+.test .test-cho a{
+	text-decoration: none;
+	display: block;
+	color: rgb(113, 122, 101);
+	width: 580.5px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+    text-align: center;
+}
+.test .test-cho a:hover{
+	background-color: #99B0AF;
+	color: #000;
+    
+}
+.test .test-cho .test-cho1,.test .test-cho .test-cho3{
+	border: 1px solid rgb(102, 102, 102);
+    text-align: center;
+}
+.test .test-cho .test-cho2{
+	border-left: 1px solid rgb(102, 102, 102);
+	border-right: 1px solid rgb(102, 102, 102);
+    text-align: center;
+}
+
+.res h2{
+	text-align: center;
+	margin-bottom: 100px;
+}			
+.res img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.res .res-ack{
+	margin-top: 120px;
+}
+.res p,.res i{
+	font-size: 18px;
+	font-family: "微软雅黑";	
+}
+.res i{
+	font-style: normal;
+	font-weight: bold;
+}
+.res p{
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+.bbttn{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color:#BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 100px;
+}
+.bttt{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 74px;
+}
+
+.bbttnn{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 25px;
+}
+.bbttnn2{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #8A99A8;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top:-380px;
+}
+
+
+#box2{
+    width: 800px;
+    height: 672px;
+    /* background-color: #FAF7E3; */
+    margin: 80px auto;
+    display:none;
+}
+.csjg{
+    text-align: center;
+    color:rgb(77, 85, 68);
+    font-size:45px;
+    margin-bottom:60px;
+}   
+
+.boox{
+    width: 591px;
+    height: 345px;
+    /* background-color: #FAF7E3; */
+    margin: 0 auto;
+}
+.jgjg{
+    font-size:18px;
+}
+
+strong{
+    font-size:35px;
+    
+}
+#wzwz{
+    margin-top: -100px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    
+<body>
+    <!-- <h1>社恐自测</h1> -->
+    <!-- <h1>Social terrorism self-test</h1> -->
+    <!-- <img src="./images./QQ截图20220609141659.png" alt=""> -->
+    <div class="boox"></div>
+    <a href="#box">
+        <button class="button-on" onclick="javascript:turnon('box')" title="开启div">点击开启</button>
+    </a>
+        <p id="wzwz">
+                         观看本网站
+            <br>
+            <br>您有收获到对您有用的信息吗
+            <br>
+            <br>
+            <strong>"关于早老症的知识" </strong>
+            <br>
+            <br>一起测测吧！
+    </p>
+   
+    <!-- <button class="bbttnn2"onclick="javascript:turnoff('box2')"title="关闭div">close</button> -->
+<div id="box">
+        <div class="test">
+            <br>
+            <br>
+                <h2>您了解早老症吗？</h2>
+                <p>1/8：早老症儿童的患病特征有哪些？</p>	
+                <!-- <div><img src="./images./QQ截图20220609141659.png" height="300px"/></div> -->
+                <div class="test-cho">
+                    <a href="#two" class="test-cho1">身体脂肪减少</a>
+                    <a href="#two" class="test-cho2">头发茂密</a>
+                    <a href="#two" class="test-cho3">皮肤光滑</a>
+                    <a href="#two" class="test-cho3">身材高大</a>
+                </div>
+                <p id="two">2/8:早老症儿童的平均寿命是？</p>
+                <div class="test-cho">
+                        <a href="#three" class="test-cho1"> 18岁</a>
+                        <a href="#three" class="test-cho2">17岁</a>
+                        <a href="#three" class="test-cho3">15岁</a>
+                        <a href="#three" class="test-cho3">14.6岁</a>
+                    </div>
+    
+                <p id="three">3/8:下面哪些药物能治疗早老症？</p>
+                <div class="test-cho">
+                        <a href="#four" class="test-cho1">Zokinvy</a>
+                        <a href="#four" class="test-cho2">Danyelza</a>
+                        <a href="#four" class="test-cho3">Folotyn</a>
+                        <a href="#four" class="test-cho3">Ravicti</a>
+                </div>
+    
+                <p id="four">4/8:早老症是哪一年被我国纳入罕见病名录的？</p>
+                <div class="test-cho">
+                        <a href="#five" class="test-cho1">2018</a>
+                        <a href="#five" class="test-cho2">2019</a>
+                        <a href="#five" class="test-cho3">2020</a>
+                        <a href="#five" class="test-cho3">2021</a>
+                </div>
+    
+    
+                <p id="five">5/8: 全球唯一一家致力于早衰研究的全球组织是？</p>
+                <div class="test-cho">
+                        <a href="#six" class="test-cho1">早老症中心（Aging Gracely）</a>
+                        <a href="#six" class="test-cho2">早老症研究协会（Progeria Research Society，PRS）</a>
+                        <a href="#six" class="test-cho3">日本早衰症协会（Japan Progeria Society）</a>
+                        <a href="#six" class="test-cho3">早老症研究基金会（Progeria Research Foundation）</a>
+                </div>
+    
+    
+    
+                <p id="six">6/8:我国推出过有关早老症的研究计划吗？</p>
+                <div class="test-cho">
+                        <a href="#sever" class="test-cho1">有</a>
+                        <a href="#sever" class="test-cho2">无</a>
+                </div>
+    
+    
+                <p id="sever">7/8：以下哪些方面做法不可以改善早老症的困境？</p>
+                <div class="test-cho">
+                        <a href="#end" class="test-cho1">建立国家罕见病数据平台</a>
+                        <a href="#end" class="test-cho2">建立国家罕见病诊疗中心</a>
+                        <a href="#end" class="test-cho3">忽略孕前产前罕见病筛查</a>
+                        <a href="#end" class="test-cho3">推进药物研发和引进</a>
+                </div>
+    
+                <p id="end">8/8:我国哪个基金会提出了为生命接力的早衰症患儿公益救助计划？</p>
+                <div class="test-cho">
+                        <a href="#endend" class="test-cho1">中国罕见病家长服务中心</a>
+                        <a href="#endend" class="test-cho2">上海早老症患者关爱协会</a>
+                        <a href="#endend" class="test-cho3">北京罕见病防治中心</a>
+                        <a href="#endend" class="test-cho3">浙江省妇女儿童基金会</a>
+                </div>
+                <!-- <button class="bbttnn"onclick="javascript:turnoff('box2')"title="关闭div">close</button> -->
+    
+                <a id="endend" href="#box2">
+                    <button class="bbttn"onclick="javascript:turnon('box2')" title="开启div">查看结果</button>
+                </a>
+            
+             
+            </div>
+
+</div>
+
+<div id="box2">
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2 class="csjg">测试结果</h2>
+    <p style="color: #666;" class="jgjg">
+          A,D,A,B,D,A,C,D
+
+
+    </p>
+
+
+
+    <a href="#box">
+
+    <button class="bttt">再测一次</button></a>
+    
+
+</div>
+
+
+<script>
+    function turnoff(obj){
+	          document.getElementById(obj).style.display="none";
+		}
+    function turnon(obj){
+	          document.getElementById(obj).style.display="block";
+		}
+    // function turnoff(obj){
+    //     document.getElementById(obj).style.display="none"
+    // }
+    function turnon(obj){
+	          document.getElementById(obj).style.display="block";
+		}
+
+
+</script>
+
+</body>
+</head>
+</html>
